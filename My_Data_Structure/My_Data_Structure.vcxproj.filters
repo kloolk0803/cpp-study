@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Linked_list">
+      <UniqueIdentifier>{c59263af-6080-4467-b5b3-31c6d3d9366c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Queue">
+      <UniqueIdentifier>{a682f8bc-fdae-4efc-8bad-df08d289ee57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stack">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="sparse_matrix">
+      <UniqueIdentifier>{2763083c-a58b-47eb-b8cc-9ff877979b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{e8a4ea51-2c2b-4fed-bae6-9036b73b2e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{dad8565f-d497-4b2a-9fa2-92f4f7d5059a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="My_Data_Structure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="circular_singly_linked_list.h">
+      <Filter>Linked_list</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="circular_doubly_linked_list.h">
+      <Filter>Linked_list</Filter>
+    </ClInclude>
+    <ClInclude Include="double_linked_list.h">
+      <Filter>Linked_list</Filter>
+    </ClInclude>
+    <ClInclude Include="Linear_list.h">
+      <Filter>Linked_list</Filter>
+    </ClInclude>
+    <ClInclude Include="Seqlist.h">
+      <Filter>Linked_list</Filter>
+    </ClInclude>
+    <ClInclude Include="singly_linked_list.h">
+      <Filter>Linked_list</Filter>
+    </ClInclude>
+    <ClInclude Include="static_linked_list.h">
+      <Filter>Linked_list</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="seq_stack.h">
+      <Filter>Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="linked_stack.h">
+      <Filter>Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="circular_queue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="linked_queue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="double_ended_queue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="sparse_matrix.h">
+      <Filter>sparse_matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_tree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="inorder_threaded_binary_tree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="huffman_tree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="min_heap.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="min_priority_queue.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_search_tree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="avl_tree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="adjacency_list_graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="adjacency_matrix_graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
